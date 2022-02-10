@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fd5c63;
+}
+
+.head-section {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.btn {
+  width: 7rem;
+  height: 4rem;
+  background-color: #0000ff;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.head-section p {
+  font-size: 40px;
+  font-weight: 400;
+}
+.guess-section {
+  height: 10vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.line {
+  border: 3px solid black;
+  width: 100%;
+}
+.guess-section .guess {
+  font-size: 100px;
+  background-color: red;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
