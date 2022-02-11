@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: seagreen;
+  height: 100vh;
+}
+.popUp {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 500px;
+  transform: translateX(-50%);
+  background-color: red;
+  padding: 4rem;
+  text-align: center;
+}
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+}
+.modal-div {
+  width: 80vw;
+  display: flex;
+  /* background-color: royalblue; */
+  margin: auto;
+  justify-content: space-between;
+  /* margin-top: 4rem; */
+}
+.modal {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: red;
+  border-radius: 50px;
+  cursor: pointer;
+  color: aliceblue;
+  margin-top: 3rem;
+}
