@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider-container {
+  width: 60vw;
+  margin: auto;
+  overflow: hidden;
+}
+.slider-img {
+  display: flex;
+  border: 5px solid black;
+}
+.slider-img img {
+  width: 100%;
+}
