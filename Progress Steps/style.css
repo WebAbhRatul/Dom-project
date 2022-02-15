@@ -32,6 +32,7 @@ body {
   left: 0%;
   top: 50%;
   transform: translateY(-50%);
+  z-index: -1;
 }
 
 .progress {
@@ -44,4 +45,35 @@ body {
   width: 0%;
   z-index: -1;
   transition: 0.4s ease;
+}
+.circle {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #e0e0e0;
+}
+.circle.active {
+  border-color: aqua;
+}
+.btn {
+  background-color: aqua;
+  border: 0;
+  color: #fff;
+  padding: 8px 30px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:focus {
+  outline: 0;
+}
+.btn:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
 }
