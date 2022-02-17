@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  overflow-x: hidden;
+}
+.container {
+  background-color: #fff;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 70px;
+}
+/* .container.show-nav {
+  transform: rotate(-20deg);
+  transform-origin: top left;
+} */
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #c8ee31;
+  border-radius: 50%;
+  position: relative;
+  transition: trabsform 0.5s linear;
+}
+.circle button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+.circle button:focus {
+  outline: none;
+}
+.circle button.open {
+  left: 60%;
+}
+.circle button.close {
+  top: 60%;
+  transform: rotate(90deg);
+
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+.content img {
+  max-width: 100%;
+}
